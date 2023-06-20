@@ -3,12 +3,13 @@
 Please refer to [RobustDistRL](https://arxiv.org/abs/2109.08776) (ECML-PKDD 2023) to look into the details of our paper (we will further update the final version of our paper shortly).
 
 
-### Step 1: install OpenAI baselines from https://github.com/openai/baselines
+### Step 1: install OpenAI baselines
 ```
 git clone https://github.com/openai/baselines.git
 cd baselines
 pip install -e .
 ```
+> Please refer to https://github.com/openai/baselines.
 
 ### Step 2: Update the environment
 
@@ -47,11 +48,11 @@ python main.py --game breakout --iter 10000000 --method DQN --train_env 2 --rand
 python main.py --game qbert --iter 10000000 --method DQN --train_env 2 --random 0.00 --epsilon 0.005 --seed 1 --gpu 0
 ```
 
-**Note**: Hyper-parameters can be modified with different arguments in different environments. Please refer to the paper for more details. We run Atari games for three times and cartpole, mountaincar for 200 times. It is suggested to run our code on the **breakout** game for the first time use.
+**Note**: Hyper-parameters can be modified with different arguments in different environments. Please refer to the paper for more details. We run Atari games for three times and cartpole, mountaincar for 200 times. It is suggested to run our code on the **breakout** game for the first time use to get more sense of the robustness advantage of distributional RL algorithms.
 
 ## Contact
 
-> If you have any questions or want to report a bug, it is more suggested to open an issue here. Alternatively, you can also send an email to ksun6@ualberta.
+If you have any questions or want to report a bug, it is more suggested to open an issue here. Alternatively, you can also send an email to ksun6@ualberta.
 
 ## Reference
 Please cite our paper if you use this code in your own work:
