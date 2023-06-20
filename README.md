@@ -3,17 +3,21 @@
 Please refer to [RobustDistRL](https://arxiv.org/abs/2109.08776) (ECML-PKDD 2023) to look into the details of our paper (we will further update the final version of our paper shortly).
 
 
-### Step 1: install OpenAI baselines
-
-https://github.com/openai/baselines
+### Step 1: install OpenAI baselines from https://github.com/openai/baselines
+```
+git clone https://github.com/openai/baselines.git
+cd baselines
+pip install -e .
+```
 
 ### Step 2: Update the environment
 
 ```
 pip install -r requirement.txt
 gym 0.12.1  
-pytorch   
+pytorch 1.7.0  
 atari-py
+cuda 11.0
 ```
 
 ### Step 3: traing models under noisy environments
