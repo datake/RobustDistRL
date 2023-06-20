@@ -22,10 +22,10 @@ We compare the learning curves of DQN, QRDQN and C51 on two Atari games (breakou
 
 #### (1) For Normal Training (--train_env 0: no noises):
 ```
-python main.py --game cartpole --iter 200000 --method DQN --train_env 0 --random 0.00 --epsilon 0.01 --seed 1 --gpu 0
+python main.py --game cartpole --iter 200000 --method DQN --train_env 0 --random 0.00 --epsilon 0.00 --seed 1 --gpu 0
 python main.py --game mountaincar --iter 100000 --method DQN --train_env 0 --random 0.00 --epsilon 0.00 --seed 1 --gpu 0
-python main.py --game breakout --method DQN  --iter 10000000  --train_env 0 --random 0.00 --epsilon 0.0 --seed 1 --gpu 0
-python main.py --game qbert --method DQN  --iter 10000000  --train_env 0 --random 0.00 --epsilon 0.00 --seed 1 --gpu 0
+python main.py --game breakout --iter 10000000 --method DQN --train_env 0 --random 0.00 --epsilon 0.0 --seed 1 --gpu 0
+python main.py --game qbert --iter 10000000 --method DQN --train_env 0 --random 0.00 --epsilon 0.00 --seed 1 --gpu 0
 ```
 #### (2) For Training under Random Noise (--train_env 1: random noise, --random X for difference perturbation strength):
 ```
@@ -35,7 +35,7 @@ python main.py --game breakout --iter 10000000 --method DQN --train_env 1 --rand
 python main.py --game qbert --iter 10000000 --method DQN --train_env 1 --random 0.05 --epsilon 0.00 --seed 1 --gpu 0
 ```
 
-#### (3) For Training under Random Noise (--train_env 2: adversarial noise, --epsilon X for difference perturbation strength):
+#### (3) For Training under Adversarial Noise (--train_env 2: adversarial noise, --epsilon X for difference perturbation strength):
 ```
 python main.py --game cartpole --iter 200000 --method DQN --train_env 2 --random 0.00 --epsilon 0.05 --seed 1 --gpu 0
 python main.py --game mountaincar --iter 100000 --method DQN --train_env 2 --random 0.00 --epsilon 0.01 --seed 1 --gpu 0
