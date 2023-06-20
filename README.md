@@ -55,7 +55,7 @@ python main.py --game qbert --iter 10000000 --method DQN --train_env 2 --random 
 If you have any questions or want to report a bug, it is more suggested to open an issue here. Alternatively, you can also send an email to ksun6@ualberta.
 
 ## Reference
-Please cite our paper if you use this code in your own work:
+Please cite our paper if you use this code in your own work (we will update shortly once the proceeding of the paper is finished):
 ```
 @article{sun2021exploring,
   title={Exploring the Training Robustness of Distributional Reinforcement Learning against Noisy State Observations},
