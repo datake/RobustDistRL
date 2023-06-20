@@ -2,7 +2,6 @@
 
 Please refer to [RobustDistRL](https://arxiv.org/abs/2109.08776) (ECML-PKDD 2023) to look into the details of our paper (we will further update the final version of our paper shortly).
 
-Please be free to contact me or leave an issue if you have any question.
 
 ### Step 1: install OpenAI baselines
 
@@ -48,7 +47,7 @@ python main.py --game qbert --iter 10000000 --method DQN --train_env 2 --random 
 
 ## Contact
 
-Please refer to ksun6@ualberta in case you have any questions.
+> If you have any questions or want to report a bug, it is more suggested to open an issue here. Alternatively, you can also send an email to ksun6@ualberta.
 
 ## Reference
 Please cite our paper if you use this code in your own work:
