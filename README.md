@@ -57,11 +57,13 @@ If you have any questions or want to report a bug, it is more suggested to open 
 ## Reference
 Please cite our paper if you use this code in your own work (we will update shortly once the proceeding of the paper is finished):
 ```
-@article{sun2021exploring,
-  title={Exploring the Training Robustness of Distributional Reinforcement Learning against Noisy State Observations},
-  author={Sun, Ke and Liu, Yi and Zhao, Yingnan and Yao, Hengshuai and Jui, Shangling and Kong, Linglong},
-  journal={arXiv preprint arXiv:2109.08776},
-  year={2021}
+@inproceedings{sun2023exploring,
+  title={Exploring the training robustness of distributional reinforcement learning against noisy state observations},
+  author={Sun, Ke and Zhao, Yingnan and Jui, Shangling and Kong, Linglong},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={36--51},
+  year={2023},
+  organization={Springer}
 }
 ```
 
